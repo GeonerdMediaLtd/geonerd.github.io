@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NewsGrid By GeoNerd</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NewsGrid by GeoNerd</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="splash-content">
+      <img src="https://i.postimg.cc/MG6vL9vY/Gro.png" alt="NewsGrid Logo" class="splash-logo">
+      <h1>📰 Welcome to<br><span>NewsGrid by GeoNerd</span></h1>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <img src="https://i.postimg.cc/MG6vL9vY/Gro.png" alt="GeoNerd Logo" class="header-logo">
+    <h1 class="header-title">NewsGrid by GeoNerd</h1>
+    <select id="category-filter">
+      <option value="all">All Categories</option>
+    </select>
+  </header>
+
+  <!-- Main App -->
+  <main id="app" style="display: none;">
+    <div id="gallery" class="masonry"></div>
+    <div class="spinner" id="spinner"></div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span id="close">&times;</span>
+    <img id="modal-img" class="modal-content" />
+    <button id="prev" class="nav-btn">←</button>
+    <button id="next" class="nav-btn">→</button>
+  </div>
+
+  <audio id="tap-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-click-1114.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
